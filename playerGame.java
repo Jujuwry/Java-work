@@ -9,12 +9,6 @@ public class playerGame {
 		
 		do {
 			
-			if(p1.getPlayerMove()!= "rock") {		
-			} else if(p1.getPlayerMove() != "paper") {
-			} else {
-				System.out.println("Invalid");
-			}
-			
 			System.out.println("Enter your move: rock, paper, scisscors");
 			p1.setPlayerMove(sc.next());
 			
